@@ -6,3 +6,6 @@ services:
 script:
   - export VERSION=$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)
   - docker build --build-arg KUBE_LATEST_VERSION=$VERSION -t kubernetes .
+  
+after_success:
+  - curl https://registry.hub.docker.com/u/gofunky/kubernetes/trigger/$DH_TRIGGER/
