@@ -20,8 +20,8 @@ jobs:
       - run:
           name: Build application Docker image
           command: |
-            chmod +x ./deploy.sh
-            ./deploy.sh
+            chmod +x deploy.sh
+            deploy.sh
       - run:
           name: Save Docker image layer cache
           command: |
