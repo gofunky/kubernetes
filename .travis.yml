@@ -8,4 +8,4 @@ script:
   - docker build --build-arg KUBE_LATEST_VERSION=$VERSION -t kubernetes .
   
 after_success:
-  - curl https://registry.hub.docker.com/u/gofunky/kubernetes/trigger/$DH_TRIGGER/
+  - curl -H "Content-Type: application/json" --data '{"docker_tag": "master"}' -X POST https://registry.hub.docker.com/u/gofunky/kubernetes/trigger/$DH_TRIGGER/
