@@ -3,4 +3,6 @@
 [![](https://images.microbadger.com/badges/version/gofunky/kubernetes.svg)](https://microbadger.com/images/gofunky/kubernetes "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/gofunky/kubernetes.svg)](https://microbadger.com/images/gofunky/kubernetes "Get your own image badge on microbadger.com")
 
-Automatically updated Docker image with k8s installed
+This is an automatically updated Docker image with k8s installed.
+
+`kubectl` can be found under `/bin/kubectl`.
