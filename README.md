@@ -5,4 +5,4 @@
 
 This is an automatically updated Docker image with k8s installed.
 
-`kubectl` can be found under `/bin/kubectl`.
+`kubectl` can be found under `/usr/local/bin/kubectl`.
