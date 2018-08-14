@@ -5,4 +5,5 @@
 
 This is an automatically updated Docker image with k8s installed.
 
+The default work dir is `/app`.
 `kubectl` can be found under `/usr/local/bin/kubectl`.
