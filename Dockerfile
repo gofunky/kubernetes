@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.11.6
 MAINTAINER matfax <mat@fax.fyi>
 
 ARG KUBE_LATEST_VERSION
